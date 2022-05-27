@@ -1,5 +1,5 @@
 import pygame, random, time
-from pygame.locals import  *
+from pygame.locals import *
 from vars import *
 
 
