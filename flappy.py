@@ -4,7 +4,6 @@ from vars import *
 
 
 
-pygame.mixer.init()
 
 
 class Bird(pygame.sprite.Sprite):
@@ -97,7 +96,9 @@ def get_random_pipes(xpos):
 
 
 def main():
+    pygame.mixer.init()
     pygame.init()
+
     screen = pygame.display.set_mode((SCREEN_WIDHT, SCREEN_HEIGHT))
     pygame.display.set_caption('Flappy Bird')
 
